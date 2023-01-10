@@ -185,6 +185,10 @@ footer a {
 
 /* EX */
 
+header {
+    position: relative;
+}
+
 ul.top > li:nth-child(-n+3) {
     display: inline;
 }
@@ -223,7 +227,7 @@ section h2 {
     }
     header p, header nav{
         position: absolute;
-        top: 50px;
+        top:40px;
     }
     header nav {
         right: 50px;
@@ -238,8 +242,6 @@ section h2 {
     section {
         width: 100%;
     }
-    
-
     iframe, section {
         display: inline-block;
         max-width: 49%;
